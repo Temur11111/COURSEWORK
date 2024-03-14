@@ -2,7 +2,7 @@ import pytest
 import json
 import datetime
 from src.utills import add_initial_data, delete_none, executed_operations_only, crypto, secret_card, slice_operations, sort_operations, date_format
-
+import json
 def test_add_initial_data():
     data = add_initial_data()
     assert isinstance(data, list)

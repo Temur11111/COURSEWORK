@@ -5,7 +5,7 @@ import pytest
 
 def add_initial_data():
     ####Открытие исходного файла
-    with open("operations.json", encoding="utf-8") as file:
+    with open("../operations.json", encoding="utf-8") as file:
         return json.load(file)
 
 
